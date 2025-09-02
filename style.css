@@ -1,36 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800..800;1,300..800&display=swap')
+
+  *{
+  /normalização/
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #BA2CC7;
+}
+
 nav li {
-font-family: "Open Sans", sans-serif;
+    font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  font-weight:<weight>;
+  font-style:normal
+
+  header{
+    display: flex;
+    algin-itens: center;
+    justufy-content: space-around;
+    gap: 413px;
+
+    width: 100%;
+    height: 160px;
+
+    background-color: rgba(153, 61, 125, 0.2);
+    border: 10px solid;
+  }
+
+}  
+
+header nav ul li {
+
+    display: inline-block;
+
+    border: 10px solid;
+    border-radius: 50px;
+
+    width: 241px;
+    height: 77px;
+
+    margin-right: 145px;
+    backgroud-color: #FF5CCE;
 }
-header{
-display: flex;
-align-items: center;
-justify-content: space-around;
-gap: 413px;
 
-width: 1000%;
-height: 160px;
+header nav ul li a {
+    text-decoration: none;
 
-background-color: black(255, 0, 179, 0.2);
-border: 10xp solid;
-}
+  }
+    
+  header img{
+    width: 175px;
+    height: 110px;
+    object-fit: cover;
+  
+  border:10px solid;
+  border-radius: 25px;
+  }
+  main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
-  header (
-display: inline-block;
-
-border: 10px solid;
-
-borderradius: 50xp
-
-width:241xp
-height:77px
-
-maigin-right: 145xp
-backgrund-color:
-)
- header nav ul li a (
-        text-decoration
- )
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
