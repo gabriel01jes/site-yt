@@ -9,6 +9,7 @@
 
 body {
   background-color: #BA2CC7;
+  height: 100vh;
 }
 
 nav li {
@@ -22,15 +23,20 @@ nav li {
     algin-itens: center;
     justufy-content: space-around;
     gap: 413px;
+    
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
 
     width: 100%;
     height: 160px;
 
     background-color: rgba(255, 0, 179, 0.2);
     border: 10px solid;
+    border-radius: 50%;
   }
 
-
+ 
 }  
 
 header nav ul li {
@@ -44,14 +50,14 @@ header nav ul li {
     height: 77px;
 
     margin-right: 145px;
-    backgroud-color: #FF5CCE;
+    backgroud-color: #775cff;
 }
 
 header nav ul li a {
     text-decoration: none;
 
   }
-  
+
   header img{
     width: 175px;
     height: 110px;
@@ -68,4 +74,10 @@ header nav ul li a {
     margin-top: 45px;
     margin-left: auto;
     margin-right: auto;
+
+    width: 45px;
+    height: 80%;
+    background-color: whitesmoke;
+    border: 10xp solid;
+    border-radius: 50px;
   }
