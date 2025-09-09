@@ -1,43 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800..800;1,300..800&display=swap')
-
-  *{
-  /normalização/
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+* {
+    /*normalização*/
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-body {
-  background-color: #BA2CC7;
-  height: 100vh;
+body{
+    background-color: rgb(0, 173, 210);
+    height: 100vh;
 }
 
 nav li {
-    font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight:<weight>;
-  font-style:normal
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  text-align: center;
+}
 
-  header{
+header{
     display: flex;
-    algin-itens: center;
-    justufy-content: space-around;
-    gap: 413px;
-    
-    margin-top: 45px;
-    margin-left: auto;
-    margin-right: auto;
-
+    align-items: center;
+    justify-content: space-around;
+    gap: 5%;
     width: 100%;
-    height: 160px;
-
-    background-color: rgba(255, 0, 179, 0.2);
+    height: 25%;
+    background-color: rgb(78, 223, 254);
     border: 10px solid;
-    border-radius: 50%;
-  }
-
- 
-}  
+}
 
 header nav ul li {
 
@@ -50,37 +39,79 @@ header nav ul li {
     height: 77px;
 
     margin-right: 145px;
-    backgroud-color: #775cff;
+    background-color: rgb(226, 69, 124);
 }
 
-header nav ul li a {
+header nav ul li a{
     text-decoration: none;
+}
 
-  }
-
-  header img{
+header img {
     width: 175px;
     height: 110px;
     object-fit: cover;
-  
-  border:10px solid;
-  border-radius: 25px;
-  }
-  main{
-    .alan_: 1px;
-    .alan_: 3px(
+
+
+    border: 10px solid;
+    border-radius: 25px;
+
+}
+
+main {
     display: flex;
     align-items: center;
     justify-content: space-around;
 
-    margin-top: 20%;
+    margin-top: 45px;
     margin-left: auto;
     margin-right: auto;
 
-    width: 45px;
-    height: 80%;
-    background-color: whitesmoke;
-    border: 10xp solid;
+    width: 95%;
+    height: 80%px;
+    background-color: rgb(0, 172, 209);
+    border: 10px solid;
     border-radius: 50px;
-    )
-  }
+
+}
+
+.mrbeast1,
+.mrbeast3 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 15%;
+    height: 100%;
+
+    background-color: rgb(226, 69, 124);
+
+    border: 10px solid;
+    border-radius: 50px;
+}
+
+.mrbeast1 img,
+.mrbeast3 img {
+    width: 138px;
+    height: 137px;
+    object-fit: cover;
+}
+
+.mrbeast2 {
+    width: 950px;
+    height: 502px;
+
+    background-color: rgb(78, 223, 254);
+    border: 10px solid;
+    border-radius: 268px;
+
+
+}
+
+.mrbeast2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 268px;
+   
+}
