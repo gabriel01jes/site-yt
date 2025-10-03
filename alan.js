@@ -5,14 +5,14 @@ let trocou = false;
 
 // Lista com os novos caminhos das imagens
 const novasImagens = {
-    "yuri1.jpeg": "dona1.jpeg",
-    "yuri2.jpeg": "dona2.jpeg",
-    "yuri3.jpeg": "dona3.jpeg",
-    "yuri4.jpeg": "dona4.jpeg",
-    "yuri5.jpeg": "dona5.jpeg",
-    "yuri6.jpeg": "dona6.jpeg",
-    "yurilogo.jpeg": "donalogo.jpeg",
-    "yuricima.jpeg": "donacima.jpeg"
+    "alan1.jpeg": "1.jpeg",
+    "alan2.jpeg": "2.jpeg",
+    "alan3.jpeg": "3.jpeg",
+    "alan4.jpeg": "4.jpeg",
+    "alan5.jpeg": "5.jpeg",
+    "alan6.jpeg": "6.jpeg",
+    "alanlogo.jpeg": "1logo.jpeg",
+    "alancima.jpeg": "2cima.jpeg"
 };
 
 botaoImagens.addEventListener("click", () => {
