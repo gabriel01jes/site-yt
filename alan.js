@@ -8,7 +8,7 @@ const novasImagens = {
     "alan1.png": "d1.jpeg",
     "alan2.png": "d2.jpeg",
     "alan3.png": "d3.jpeg",
-    "alan4.png": "d4.jpeg",
+    "alan4.png": "d7.jpeg",
     "alan5.png": "d5.jpeg",
     "alan6.png": "d6.jpeg",
     "alanlogo.png": "d1logo.jpeg",
